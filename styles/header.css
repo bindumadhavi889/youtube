@@ -1,0 +1,138 @@
+/*
+this is a comment in css
+*/
+.head{
+  height:55px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:fixed;
+  right:0;
+  left:0;
+  top:0;
+  background-color:white;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(216, 216, 216);
+  border-bottom-style: solid;
+  z-index: 100;
+}
+.les{
+  display:flex;
+  align-items:center;
+}
+.hamburger-menu{
+  height:24px;
+  margin-left:24px;
+  margin-right:24px;
+}
+.youtube-logo{
+  height:20px;
+}
+.search{
+  flex: 1;
+  height:36px;
+  border-width:1px;
+  border-color:rgb(179, 178, 178);
+  border-style:solid;
+  padding-left:10px;
+  width:0;
+}
+.sear{
+  flex: 1;
+  display:flex;
+  margin-left:75px;
+  margin-right:50px;
+  max-width:500px;
+  align-items:center;
+}
+.searchicon,
+.voice-search-icon,
+.notifications-icon,
+.up-icon,
+.app-icon{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.searchicon .tooltip,
+.voice-search-icon .tooltip,
+.notifications-icon .tooltip,
+.up-icon .tooltip,
+.app-icon .tooltip{
+  position:absolute;
+  bottom:-52px;
+  background-color:rgb(98, 98, 98);
+  color:white;
+  font-size:12px;
+  padding:10px 5px;
+  border-radius:3px;
+  white-space: nowrap;
+  opacity:0;
+  transition:opacity 0.15s;
+}
+.searchicon:hover .tooltip,
+.voice-search-icon:hover .tooltip,
+.notifications-icon:hover .tooltip,
+.up-icon:hover .tooltip,
+.app-icon:hover .tooltip{
+  opacity:1;
+}
+.searchicon{
+  height:39px;
+  width:66px;
+  background-color: rgb(240,240,240);
+  border-color:rgb(179, 178, 178);
+  border-style:solid;
+  border-width:1px;
+  margin-left:-1px;
+}
+.search::placeholder{
+  font-size:16px;
+}
+.search-icon{
+  height: 25px;
+}
+.voice-search-icon{
+  margin-left:5px;
+  height:38px;
+  width:38px;
+  border-radius: 19px;
+  background-color:rgb(245,245,245);
+  border:none;
+}
+.ris{
+  width:180px;
+  margin-right:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-shrink: 0;
+}
+.upload{
+  height:24px;
+}
+.apps{
+  height:24px;
+}
+.notifications{
+  height:24px;
+}
+.my-channel{
+  height:34px;
+  width:34px;
+  border-radius:17px;
+}
+.notifications-icon{
+  position:relative;
+}
+.notifications-count{
+  position:absolute;
+  top:-1px;
+  right:-3px;
+  background-color:rgb(185, 4, 4);
+  color:white;
+  padding:2px 5px;
+  font-size:8px;
+  border-radius:10px;
+}
